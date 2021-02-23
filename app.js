@@ -55,6 +55,6 @@ app.get('/del/:id',(req,res)=>{
     });
 });
 
-app.listen(3000,()=>{
+app.listen(80,()=>{
     console.log("Server started Successfully");
 })
